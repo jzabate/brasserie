@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<title>Brasserie de la Somme</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,600,700,800,900%7COpen+Sans:400,600,700&subset=latin,latin" media="all">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome/font-awesome.css">
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="css/zocial/zocial.css">
+	<link rel="stylesheet" href="css/custom-brasserie.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<style>	
+	    .cart-responsive {
+	    	margin:34px 0;
+	    	margin-top:39px;
+	    }
+	    .specialEdition {
+	    	color: #b3b3a;
+	    }
+	    /*
+	    .carousel {
+	    	max-height: 420px;
+	    	overflow:hidden;
+	    	
+	    	.item img{
+	           width:100%;
+	    	   height:auto;    	
+	        }
+	    }*/
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+	</style>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="homepage">
+
+	<!-- Fixed navbar / header -->
+	<header class="header-area header-wrapper main-nav navbar-fixed-top">
+		<div class="header-area-inner">
+			<div class="header-top top">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-5">
+							<div class="top__slogan">
+								Nos bières sont fabriquées avec plein d'amour
+								<small><span class="fa fa-heart"></span></small>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<div class="top__menu">
+								<ul class="nav nav-pills">
+									<li><a href="contact.html">Nous contacter</a></li>
+									<li>
+										<a href="contactpro.html"><strong>VOUS ÊTES PRO</strong></a>
+									</li>
+									<li><a href="newsletter.html">Newsletter</a></li>
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="#">
+											Mon compte
+											<span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="cart.html">Commander</a></li>
+											<li><a href="login.html">Se connecter</a></li>
+											<li><a href="login.html">Créer un compte</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header header-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 col-md-2">
+							<div class="header-logo">
+								<a href="/"><img src="assets/images/logo.png" alt="Logo" width="90" height="90"></a>
+							</div>
+						</div>
+						<div class="col-xs-6 visible-sm visible-xs">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+	                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-navbar" aria-expanded="false">
+	                                <span class="sr-only">Toggle navigation</span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                                <span class="icon-bar"></span>
+	                            </button>
+
+	                            <div class="mobile-cart  visible-xs  visible-sm  cart-responsive pull">
+	                                <span class="header-cart__text--price"><span class="header-cart__text">CABAS -</span> <span class="js--melis-push-totalPrice">0,00</span> €</span>
+	                                <a href="cart.html" class="header-cart__items">
+	                                    <span class="header-cart__items-num"><span class="js--melis-push-nbItems">0</span></span>
+	                                </a>
+	                            </div>
+	                        </div>
+						</div>
+						<div class="col-xs-12 col-md-8">
+							<nav class="navbar navbar-default" role="navigation">
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="collapsible-navbar">
+									<ul class="nav navbar-nav">
+										<li class="dropdown">
+											<a href="main-page-template.html" class="dropdown-toggle">
+												Horaires, visites et stages
+												<span class="caret"></span>
+											</a>
+											<ul class="dropdown-menu">
+												<li><a href="main-sub-page-template.html">Tout démarre toujours par une belle histoire</a></li>
+												<li><a href="main-sub-page-template.html">Horaires d'ouverture de la Boutique Vente directe sur place</a></li>
+												<li><a href="main-sub-page-template.html">Notre brasserie se visite</a></li>
+												<li><a href="main-sub-page-template.html">Stages de Brassage amateur de Bières artisanales</a></li>
+												<li><a href="main-sub-page-template.html">Nos manifestations </a></li>
+												<li><a href="main-sub-page-template.html">Réservations visites & stages</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<!-- En coulisses and Les coulisses de la Brasserie linked to the same main page -->
+											<a href="main-page-template.html" class="dropdown-toggle">En coulisses <span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a href="main-page-template.html">Les coulisses de la Brasserie</a></li>
+												<li><a href="main-sub-page-template.html">Ca se fait comment une bière ?</a></li>
+												<li><a href="main-sub-page-template.html">Bières personnalisées </a></li>
+												<li><a href="main-sub-page-template.html">Où trouver nos bières ?</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<!-- Je commande en ligne and Les incontournables linked to the same main page -->
+											<a href="category.html" class="dropdown-toggle">Je commande en ligne <span class="caret"></span></a>
+											<ul class="dropdown-menu">
+												<li><a href="category.html">​Les incontournables</a></li>
+												<li><a href="category">Séries limitées</a></li>
+												<li><a href="category">Coffrets découverte</a></li>
+												<li><a href="category">Produits dérivés</a></li>
+												<li><a href="category">Verres et décapsuleur</a></li>
+											</ul>
+										</li>
+										<li class="hidden-xs pull-right hidden-sm">
+	                                        <a href="#" class="js--toggle-search-mode"><span class="glyphicon  glyphicon-search  glyphicon-search--nav"></span></a>
+	                                    </li>
+									</ul>
+									<!-- Search for mobile devices -->
+									<form action="#" method="post" class="visible-xs visible-sm mobile-navbar-form" role="form">
+	                                    <div class="input-group">
+	                                        <input type="text" class="form-control" placeholder="Recherche">
+	                                        <span class="input-group-addon">
+	                                          <button type="submit" class="mobile-navbar-form__appended-btn"><span class="glyphicon  glyphicon-search  glyphicon-search--nav"></span></button>
+	                                        </span>
+	                                    </div>
+	                                </form>
+								</div>
+								<!-- /.navbar-collapse -->
+							</nav>
+						</div>
+						<div class="col-xs-12 col-md-2 hidden-sm hidden-xs">
+							<!-- Cart in header -->
+							<div class="header-cart js--toggle-cart-mode">
+	                            <span class="header-cart__text--price"><span class="header-cart__text">CABAS -</span> <span class="js--melis-push-totalPrice">0,00</span> €</span>
+	                            <a href="cart.html" class="header-cart__items">
+	                                <span class="header-cart__items-num"><span class="js--melis-push-nbItems">0</span></span>
+	                            </a>
+	                            <!-- Open cart panel -->
+	                            <div class="header-cart__open-cart">
+	                                <div class="js--melis-push-cartContent">
+	                                    <div class="empty_cart">Votre panier est vide</div>
+	                                </div>
+
+	                                <hr class="header-cart__divider">
+	                                <div class="header-cart__subtotal-box">
+	                                    <span class="header-cart__subtotal">TOTAL :</span>
+	                                    <span class="header-cart__subtotal-price"><span class="js--melis-push-totalPrice">0,00</span> €</span>
+	                                </div>
+	                                <a class="btn btn-darker" href="cart.html">Valider mon panier</a>
+	                            </div>
+	                        </div>
+						</div>
+					</div>
+				</div>
+				<!-- Search open panel -->
+				<div class="search-panel">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-sm-11">
+	                            <form class="search-panel__form" method="get" action="search.html">
+	                                <button type="submit"><span class="glyphicon  glyphicon-search"></span></button>
+	                                <input type="text" name="s" class="form-control" placeholder="Entrez votre recherche">
+	                            </form>
+	                        </div>
+	                        <div class="col-sm-1">
+	                            <div class="search-panel__close  pull-right">
+	                                <a href="#" class="js--toggle-search-mode"><span class="glyphicon  glyphicon-circle  glyphicon-remove"></span></a>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+			</div>
+		</div>
+	</header>
+	<!-- <div class="modal fade" id="ageModal" tabindex="-1" role="dialog">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <img class="img-responsive" src="assets/images/agelegal.png" width="918" height="364" alt="Legal age" title="Legal age" />
+	            </div>
+	            <div class="modal-body">
+	                <h2>Pour accéder à ce site, confirmez-vous avoir l'âge légal dans votre pays de résidence ?</h2>
+	                <a href="#" data-dismiss="modal" class="btn btn-violet btn-yes">Oui</a>
+	                <a href="#" class="btn btn-violet btn-no">Non</a>
+	            </div>
+	        </div>
+	    </div>
+	</div> -->
+	<main class="content-area no-mtb">
+		<section class="banner">
+			<figure class="mb-0">
+				<img src="assets/images/bandeau_connexion-inscription.png" alt="Bandeau Connexion Inscription" class="img-responsive" width="1308" height="395" title="Bandeau Connexion Inscription" />
+			</figure>
+		</section>
+		<section class="account-related-forms my-account">
+			<div class="container">
+				<div class="row">
+					<header>
+						<h1>Mon compte</h1>
+					</header>
+					<div class="col-md-12 col-lg-12">
+						<div class="panel-group" id="checkOut">
+						    <form action="#g-infos" method="post" id="g-infos" name="g-infos">
+						        <div class="panel panel-default">
+						            <div class="panel-heading  active">
+						                <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> <span>1</span>Informations générales</a> </h4>
+						            </div>
+						            <div id="collapseOne" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <div class="row">
+						                        <div class="col-sm-12">
+						                            <div class="form-group">
+						                                <input type="hidden" name="posttype" value="generalinfo">
+						                                <label for="reg_civility">Civilité*</label>
+						                                <br>
+						                                <input type="radio" name="reg_civility" id="reg_civility_m" value="1" checked="true">
+						                                <label for="reg_civility_m">M</label>
+						                                &nbsp;&nbsp;<input type="radio" name="reg_civility" id="reg_civility_mme" value="2">
+						                                <label for="reg_civility_mme">Mme</label>
+						                            </div>
+
+						                            <div class="row">
+						                                <div class="form-group col-sm-12 col-md-6">
+						                                    <label id="label_reg_firstname" for="reg_firstname">Prénom*</label>
+						                                    <input type="text" class="form-control" id="reg_firstname" name="reg_firstname" value="Junry">
+						                                </div>
+						                                <div class="form-group col-sm-12 col-md-6">
+						                                    <label id="label_reg_lastname" for="reg_lastname">Nom*</label>
+						                                    <input type="text" class="form-control" id="reg_lastname" name="reg_lastname" value="Zabate">
+						                                </div>
+						                            </div>
+
+
+						                            <div class="form-group">
+						                                <label id="label_reg_email" for="reg_email">Votre email*</label>
+						                                <input type="email" class="form-control" id="reg_email" name="reg_email" value="jzabate@melistechnology.com">
+						                            </div>
+
+						                            <div class="row">
+						                                <div class="form-group col-sm-12 col-md-6">
+						                                    <label id="label_reg_password" for="reg_password">Votre mot de passe<br>(laisser vide pour ne pas changer)</label>
+						                                    <input type="password" class="form-control" id="reg_password" name="reg_password">
+						                                </div>
+						                                <div class="form-group col-sm-12 col-md-6">
+						                                    <label id="label_reg_password2" for="reg_password2"><br class="visible-md visible-lg">Confirmez votre mot de passe</label>
+						                                    <input type="password" class="form-control" id="reg_password2" name="reg_password2">
+						                                </div>
+						                            </div>
+
+						                            <div class="text-right"> <span class="required">*</span> Champs obligatoires</div>
+
+						                            <br>
+						                            <div style="color: red; display: none" id="errorZoneInfosGen">
+						                                Merci de compléter tous les champs
+						                            </div>
+						                            <button class="btn btn-mega btn-primary btn-lg orange" type="submit">Modifier</button>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </form>
+
+						    <form action="#comm-factu" method="post" id="comm-factu" name="comm-factu">
+						        <div class="panel panel-default">
+						            <div class="panel-heading  active">
+						                <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> <span>2</span>INFORMATIONS DE FACTURATION</a> </h4>
+						            </div>
+						            <div id="collapseTwo" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <div class="row">
+						                        <div class="col-sm-12">
+						                            <p>Renseignez votre adresse de facturation:</p>
+						                            <div class="form-group">
+						                                <input type="hidden" name="posttype" value="billinginfo">
+						                                <label id="label_billing_civility" for="billing_civility">Civilité*</label>
+						                                <br>
+						                                <input type="radio" name="billing_civility" id="billing_civility_m" value="1" checked="true"> <label for="billing_civility_m">M</label>&nbsp;&nbsp;
+						                                <input type="radio" name="billing_civility" id="billing_civility_mme" value="2"> <label for="billing_civility_mme">Mme</label>&nbsp;&nbsp;
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_firstname" class="light">Prénom<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_firstname" id="billing_firstname" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_lastname" class="light">Nom<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_lastname" id="billing_lastname" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_telephone" class="light">Téléphone<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_telephone" id="billing_telephone" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_number" class="light">Numéro de rue<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_number" id="billing_number" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_street" class="light">Nom de rue<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_street" id="billing_street" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_zipcode" class="light">Code postal<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_zipcode" id="billing_zipcode" value="" maxlength="10">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_city" class="light">Ville<span class="required"> *</span></label>
+						                                <input class="form-control" name="billing_city" id="billing_city" value="">
+						                            </div>
+						                            <div class="form-group">
+						                                <label id="label_billing_more" class="light">Autre</label>
+						                                <input class="form-control" name="billing_more" id="billing_more" value="">
+						                            </div>
+						                            <div class="text-right"> <span class="required">*</span> Champs obligatoires</div>
+
+						                            <div style="color: red; display: none" id="errorZoneInfosFactu">
+						                                Merci de compléter tous les champs
+						                            </div>
+						                            <button class="btn btn-mega btn-primary btn-lg orange" type="submit">Modifier</button>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </form>
+
+						    <form action="#comm_livraison" method="post" id="comm_livraison" name="comm_livraison">
+						        <div class="panel panel-default">
+						            <div class="panel-heading  active">
+						                <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> <span>3</span>INFORMATIONS DE LIVRAISON</a> </h4>
+						                <div id="collapseTwo" class="panel-collapse collapse in">
+						                    <div class="panel-body">
+						                        <div class="row">
+						                            <div class="col-sm-12">
+						                                <p>Renseignez votre adresse de livraison:</p>
+						                                <input type="hidden" name="posttype" value="deliveryinfo">
+						                                <div class="form-group">
+						                                    <label id="label_delivery_civility" for="delivery_civility">Civilité*</label>
+						                                    <br>
+						                                    <input type="radio" name="delivery_civility" id="delivery_civility_m" value="1" checked="true"> <label for="billing_civility_m">M</label>&nbsp;&nbsp;
+						                                    <input type="radio" name="delivery_civility" id="delivery_civility_mme" value="2"> <label for="billing_civility_mme">Mme</label>&nbsp;&nbsp;
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_firstname" class="light">Prénom<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_firstname" id="delivery_firstname" value="">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_lastname" class="light">Nom<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_lastname" id="delivery_lastname" value="">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_email" class="light">Email<span class="required"> *</span></label>
+						                                    <input type="email" class="form-control" name="delivery_email" id="delivery_email" value="jzabate@melistechnology.com">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_telephone" class="light">Téléphone<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_telephone" id="delivery_telephone" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_number" class="light">Numéro de rue<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_number" id="delivery_number" value="">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_street" class="light">Nom de rue<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_street" id="delivery_street" value="">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_zipcode" class="light">Code postal<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_zipcode" id="delivery_zipcode" value="" maxlength="10">
+						                                </div>
+						                                <div class="form-group">
+						                                    <label id="label_delivery_city" class="light">Ville<span class="required"> *</span></label>
+						                                    <input class="form-control" name="delivery_city" id="delivery_city" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_place" class="light">Lieu-dit</label>
+						                                    <input class="form-control" name="delivery_place" id="delivery_place" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_digicode" class="light">Digicode / Code d'accès</label>
+						                                    <input class="form-control" name="delivery_digicode" id="delivery_digicode" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_interphone" class="light">Interphone</label>
+						                                    <input class="form-control" name="delivery_interphone" id="delivery_interphone" autocomplete="off" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_etage" class="light">Etage / Porte à droite ? A gauche ? Au centre ?</label>
+						                                    <input class="form-control" name="delivery_etage" id="delivery_etage" value="">
+						                                </div>
+
+						                                <div class="form-group">
+						                                    <label id="label_delivery_more" class="light">Autre (Pas de sonnerie frappez fort à la porte, si je ne suis pas là, à déposer chez le voisin, attention chien méchant...)</label>
+						                                    <input class="form-control" name="delivery_more" id="delivery_more" value="">
+						                                </div>
+
+						                                <div class="text-right"> <span class="required">*</span> Champs obligatoires</div>
+
+						                                <div style="color: red; display: none" id="errorZoneInfosFactu">
+						                                    Merci de compléter tous les champs
+						                                </div>
+						                                <button class="btn btn-mega btn-primary btn-lg orange" type="submit">Modifier</button>
+						                            </div>
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </form>
+
+						    <form action="#" method="post" id="comm-infos" name="comm-infos">
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						                <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> <span>4</span>Mes commandes</a> </h4>
+						            </div>
+						            <div id="collapseThree" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <div class="row">
+						                        <div class="divider divider-sm visible-xs"></div>
+						                        <div class="col-sm-12" style="line-height: 15px;">
+						                            <table cellpadding="5" cellspacing="5" border="1" bordercolor="#CCCCCC" width="100%" class="hidden-xs">
+						                                <thead>
+						                                    <tr class="hidden-xs">
+						                                        <th style="width: 10%">Numéro</th>
+						                                        <th style="width: 10%">Date</th>
+						                                        <th style="width: 27%">Adresses</th>
+						                                        <th style="width: 26%">Produits</th>
+						                                        <th style="width: 9%">Total</th>
+						                                        <th style="width: 10%">Statut</th>
+						                                        <th style="width: 8%">Facture</th>
+						                                    </tr>
+						                                </thead>
+						                                <tbody>
+						                                </tbody>
+						                            </table>
+						                            <div class="order-history-mobile visible-xs">
+						                            </div>
+
+						                        </div>
+						                    </div>
+						                </div>
+						            </div>
+						        </div>
+						    </form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="js--page-footer">
+	    <div class="footer-widgets">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-xs-12 col-sm-4">
+	                    <div class="footer-widgets__social">
+	                        <img class="mb-30" alt="Footer Logo" src="assets/images/logo.png" width="137" height="137">
+	                        <p class="mb-15">Recevez toutes les actualités directement dans votre boîte mail !</p>
+	                        <p class="mb-30"><a class="btn btn-primary" href="#">Je m'inscris à la newsletter !</a></p>
+	                        <a class="social-container fb" target="_blank" href="https://www.facebook.com/Brasserie-de-la-Somme-386195144763439/?fref=ts"><span class="zocial-facebook"></span></a>
+	                        <a class="social-container twitter" target="_blank" href="https://twitter.com/BDLSOMME"><span class="zocial-twitter"></span></a>
+	                    </div>
+	                </div>
+	                <div class="col-xs-12 col-sm-4">
+	                    <nav class="footer-widgets__navigation">
+	                        <div class="footer-wdgets__heading--line">
+	                            <h4 class="footer-widgets__heading">Navigation</h4>
+	                        </div>
+	                        <ul class="nav nav-footer">
+	                            <li><a href="#">Bien emballées bien livrées</a></li><li><a href="/en-coulisses/les-coulisses-de-la-brasserie-/id/10#paiement_securise">Paiement sécurisé</a></li><li><a href="#">Acheter en boutique</a></li><li><a href="#">Visitez la brasserie</a></li><li><a href="/cgv/id/16">CGV</a></li>
+	                        </ul>
+	                    </nav>
+	                </div>
+	                <div class="col-xs-12 col-sm-4">
+	                    <div class="footer-widgets__navigation">
+	                        <div class="footer-wdgets__heading--line">
+	                            <h4 class="footer-widgets__heading">Contactez-nous</h4>
+	                        </div>
+	                        <span class="title">Brasserie de la Somme</span><br>
+	                        <span class="title">François et Marie-Laure MARIÉ</span><br>
+	                        7, Route de Berneuil<br>80 620 Domart-En-Ponthieu<br>
+	                        <a class="footer__link--small" target="_blank" href="https://bit.ly/2sS3p9m">Voir sur Google map <span class="glyphicon glyphicon-chevron-right glyphicon--footer-small"></span></a><br><br>
+	                        <a class="footer__link" href="tel:0322540723"><span class="glyphicon glyphicon-earphone glyphicon--footer"></span> 03 22 54 07 23</a><br>
+	                        <a class="footer__link" href="mailto:mail@brasseriedelasomme.fr"><span class="glyphicon glyphicon-envelope glyphicon--footer"></span> mail@brasseriedelasomme.fr</a>
+	                   		
+	                   		<div class="footer-logo">
+	                   			<a href="http://www.bienvenue-a-la-ferme.com" target="_blank">
+	                   				<img src="assets/images/footer-image2.png" alt="" >
+	                   			</a>
+	                   			<a href="http://www.hachette-pratique.com/guide-hachette-des-bieres-9782012314849" target="_blank">
+	                   				<img src="assets/images/footer-image1.png" alt="">
+	                   			</a>
+	                   		</div>
+	                    </div>	                    
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="footer">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-xs-12 col-sm-4">
+	                    <div class="footer__text--link">
+	                        <a class="footer__link" href="/">Brasserie de la Somme</a> &copy;
+	                    </div>
+	                </div>
+	                <div class="col-xs-12 col-sm-4">
+	                    <div class="footer__text--link text-center">
+	                        <a class="footer__link" href="#">Mentions légales</a>
+	                    </div>
+	                </div>
+	                <div class="col-xs-12 col-sm-4">
+	                    <div class="footer__text">
+	                        Développement : <a class="footer__link" href="http://www.melistechnology.com/" target="_blank">Melis Technology</a><br>
+	                        Design Graphique : <a class="footer__link" href="http://ateliercompote.fr/" target="_blank">Atelier Compöte</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	<!-- modal overlay -->
+	<div class="search-mode__overlay"></div>
+	
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/owl-carousel/owl.carousel.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
