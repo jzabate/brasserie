@@ -1,6 +1,7 @@
 // required
 var gulp 		= require('gulp'),
 	uglify 		= require('gulp-uglify'),
+	plumber 	= require('gulp-plumber'),
 	jshint 		= require('gulp-jshint'),
 	tinyimg 	= require('gulp-tinifier'),
 	concat		= require('gulp-concat'),
@@ -15,5 +16,13 @@ gulp.task('scripts', function() {
 		.pipe(gulp.dest('js/build'));
 });
 
+// style task
+
+
+// watch task
+gulp.task('watch', function() {
+	gulp.watch('js/**/*.js', ['scripts']);
+});
+
 //default task
-gulp.task('default', ['scripts']);
+gulp.task('default', ['scripts', 'watch']);
